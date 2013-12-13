@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>前端页面列表（Demo List）</title>
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.suning.com/favicon.ico">
+	<style type="text/css">
+	body{width:800px;margin:20px auto;font-family:Microsoft YaHei;;border:1px solid #D8D8D8;}a{text-decoration:none;}a:hover{text-decoration:underline;}h1{clear:both;}.project-info{margin:10px;overflow:hidden;}h4,h5,p,h6{margin:0 20px 6px 10px;font-size:12px;font-weight:normal;}h3{margin:0px 10px 10px;}h4{display:inline;float:left;}h6{clear:both;}p{clear:both;}label{float:left;color:#999;}span{color:#000;}p span{float:left;width:700px;line-height:1.8;}ol{clear:both;margin:0 10px;padding:10px 0 10px 30px;border-top:1px solid #D8D8D8;}ol,li{line-height:1.8;font-size:14px;}ol li span{padding-left:20px;font-size:12px;color:#999;}
+	</style>
+</head>
+<body>
+<div class="project-info">
+	<h3><%= name %></h3>
+	<h4>
+		<label>作者：</label>
+		<span><%= author %></span>
+	</h4>
+	<h5>
+		<label>起止日期：</label>
+		<span><%= date %></span>
+	</h5>
+	<h6>
+		<label>设计稿地址：</label>
+		<span><%= psd %></span>
+	</h6>
+	<p>
+		<label>备注：</label>
+		<span><%= memo %></span>
+	</p>
+</div>
+<ol>
+	<% for (var i = 0; i < pages.length; i++) { %>
+	<li><a target="_blank" href="<%= pages[i].filename %>"><%= pages[i].pagetitle %></a></li>
+	<% } %>
+</ol>
+</body>
+</html>

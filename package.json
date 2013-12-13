@@ -1,0 +1,25 @@
+{
+  "name": "sn-demolist",
+  "version": "0.0.1",
+  "description": "生成静态文件目录",
+  "main": "sndemolist.js",
+  "bin": {
+    "sndemolist": "cli.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aoxls/sn-demolist.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "aoxls",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "~0.8.5",
+    "inquirer": "~0.3.5"
+  }
+}
