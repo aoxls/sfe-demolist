@@ -1,17 +1,14 @@
 {
-  "name": "sn-demolist",
-  "version": "0.0.1",
-  "description": "生成静态文件目录",
-  "main": "sndemolist.js",
+  "name": "sfe-demolist",
+  "version": "0.0.2",
+  "description": "生成静态页面目录",
+  "main": "demolist.js",
   "bin": {
-    "sndemolist": "cli.js"
-  },
-  "scripts": {
-    "start": "node index"
+    "demolist": "cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aoxls/sn-demolist.git"
+    "url": "https://github.com/aoxls/sfe-demolist.git"
   },
   "keywords": [
     "html"
