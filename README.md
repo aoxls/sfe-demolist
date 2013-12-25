@@ -9,6 +9,6 @@ sfe-demolist
 
 ## Usage
 
-    打开命令行，进入相应目录，直接运行 sndemolist
+    打开命令行，进入相应目录，直接运行 demolist
 
-    或者在任意目录下，运行： sndemolist 绝对路径
+    或者在任意目录下，运行： demolist 绝对路径
